@@ -1,4 +1,8 @@
+属于是补档，一个月前就开始了，但大跃进式地学习，学完就忘
+特此整理一下
+
 ## 不臭不长的介绍
+
 取代js密集计算而不是取代js，编译一次就可以到处运行，新的二进制格式的开放标准
 
 ![image](https://github.com/BH3GEI/WebAssemblyLearning/assets/58540850/c70b0e61-97d1-4a16-94ba-f28c7a088d0a)
@@ -42,3 +46,30 @@
   - WebAssembly
 
 基本都和WebAssembly有关系
+
+- **WebAssembly技术受众**
+
+- 前端
+- 后端 微服务
+- 云服务、容器化、运维
+- 游戏开发
+- 音视频开发
+- 区块链从业者
+- 
+## 开始code
+### wat2wasm网站
+.WASM是binary
+.WAT是text
+
+```markdown
+- wasm有一种基于文本助记的表示形式WAT如下
+  ```wat
+  (module
+    (func (export "addTwo") (param i32 i32) (result i32)
+      local.get 0
+      local.get 1
+      i32.add))
+  ```
+- wat通过wabt工具编译成二进制文件wasm
+```
+
