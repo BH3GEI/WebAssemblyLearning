@@ -61,7 +61,7 @@
 .WASM是binary
 .WAT是text
 
-- wasm有一种基于文本助记的表示形式WAT如下
+- wasm有一种基于文本助记的表示形式，WAT如下
   ```wat
   (module
     (func (export "addTwo") (param i32 i32) (result i32)
@@ -76,6 +76,9 @@ chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样�
 
 
 - [https://webassembly.github.io/wabt/demo/wat2wasm/](https://webassembly.github.io/wabt/demo/wat2wasm/)
-  跟他妈汇编一样
+  
+  跟他妈汇编一样，但你不用会，不是傻逼都不会选用它编程
+  
 - 在左侧的文本区域中输入 WebAssembly 文本。右侧要么显示错误，要么显示带有生成二进制文件描述的日志。
 - 还可以下载生成的wasm二进制文件
+
