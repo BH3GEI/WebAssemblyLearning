@@ -61,7 +61,6 @@
 .WASM是binary
 .WAT是text
 
-```markdown
 - wasm有一种基于文本助记的表示形式WAT如下
   ```wat
   (module
@@ -71,5 +70,6 @@
       i32.add))
   ```
 - wat通过wabt工具编译成二进制文件wasm
-```
 
+- chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样进行打断点等
+- 但是这些只是一些代码段，并不是完整的.wat
