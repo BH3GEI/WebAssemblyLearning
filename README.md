@@ -58,6 +58,7 @@
   
 ## 开始code
 ### wat2wasm网站
+#### 一些废话
 .WASM是binary
 .WAT是text
 
@@ -74,10 +75,9 @@
 chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样进行打断点等
 但是这些只是一些代码段，并不是完整的.wat
 
-
+#### 网站来咯
 - [https://webassembly.github.io/wabt/demo/wat2wasm/](https://webassembly.github.io/wabt/demo/wat2wasm/)
   
-
 - 在左侧的文本区域中输入 WebAssembly 文本。右侧要么显示错误，要么显示带有生成二进制文件描述的日志。
 - 还可以下载生成的wasm二进制文件
 
@@ -85,3 +85,12 @@ chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样�
    ，你看网址wabt，这jb玩意就是wabt，就是个编译工具：
 [https://github.com/WebAssembly/wabt](https://github.com/WebAssembly/wabt)
 闲得蛋疼可以本地编译运行一下，也可以做个上面那样的网站试试看  。纯兴趣，没必要。
+
+
+### 创建项目
+#### 安装Rust & 安装Node
+#### 创建项目 cargo new --lib wasm_game
+#### - 创建www目录 进入目录执行
+  - `npm install --save-dev webpack-dev-server`
+  - `npm install --save webpack-cli`
+  - `npm install --save copy-webpack-plugin`
