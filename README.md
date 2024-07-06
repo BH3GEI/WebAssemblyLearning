@@ -71,5 +71,10 @@
   ```
 - wat通过wabt工具编译成二进制文件wasm
 
-- chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样进行打断点等
-- 但是这些只是一些代码段，并不是完整的.wat
+chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样进行打断点等
+但是这些只是一些代码段，并不是完整的.wat
+
+
+- [https://webassembly.github.io/wabt/demo/wat2wasm/](https://webassembly.github.io/wabt/demo/wat2wasm/)
+- 在左侧的文本区域中输入 WebAssembly 文本。右侧要么显示错误，要么显示带有生成二进制文件描述的日志。
+- 还可以下载生成的wasm二进制文件
