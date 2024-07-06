@@ -55,7 +55,7 @@
 - 游戏开发
 - 音视频开发
 - 区块链从业者
-- 
+  
 ## 开始code
 ### wat2wasm网站
 .WASM是binary
@@ -77,8 +77,11 @@ chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样�
 
 - [https://webassembly.github.io/wabt/demo/wat2wasm/](https://webassembly.github.io/wabt/demo/wat2wasm/)
   
-  跟他妈汇编一样，但你不用会，不是傻逼都不会选用它编程
-  
+
 - 在左侧的文本区域中输入 WebAssembly 文本。右侧要么显示错误，要么显示带有生成二进制文件描述的日志。
 - 还可以下载生成的wasm二进制文件
 
+  跟他妈汇编一样，但你不用会，不是傻逼都不会选用它编程
+   ，你看网址wabt，这jb玩意就是wabt，就是个编译工具：
+[https://github.com/WebAssembly/wabt](https://github.com/WebAssembly/wabt)
+闲得蛋疼可以本地编译运行一下，也可以做个上面那样的网站试试看  。纯兴趣，没必要。
