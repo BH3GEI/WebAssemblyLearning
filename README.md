@@ -88,9 +88,13 @@ chrome会简单地将wasm二进制表示编译为wat，可以像调试js一样�
 
 
 ### 创建项目
-#### 安装Rust & 安装Node
+#### 安装Rust & 安装Node.js
 #### 创建项目 cargo new --lib wasm_game
 #### 创建www目录 进入目录执行
   - `npm install --save-dev webpack-dev-server`
   - `npm install --save webpack-cli`
   - `npm install --save copy-webpack-plugin`
+#### Coding
+略
+
+
